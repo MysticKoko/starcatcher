@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hybrid_aquatic"
+    }
+  ],
+  "difficulty": {
+    "decay": 2,
+    "extras": {
+      "has_moving_markers": true
+    },
+    "markers": {
+      "has_first_marker": false,
+      "has_first_thin_marker": true,
+      "has_second_marker": false,
+      "has_second_thin_marker": true
+    },
+    "penalty": 25,
+    "reward": 15,
+    "reward_thin": 20,
+    "treasure": {
+      "has_treasure": true,
+      "hit_reward": 15,
+      "loot": "starcatcher:treasure"
+    }
+  },
+  "fish": "hybrid-aquatic:oarfish",
+  "rarity": "rare",
+  "size_and_weight": {
+    "average_size_cm": 800.0,
+    "average_weight_grams": 250000.0,
+    "deviation_size_cm": 300.0,
+    "deviation_weight_grams": 22000.0,
+    "golden_chance_percentage": 10,
+    "golden_state_increase": 20
+  },
+  "weather": "thunder",
+  "world_restrictions": {
+    "above_y": 50,
+    "below_y": 100,
+    "biomes_tags": [
+      "starcatcher:is_deep_ocean"
+    ],
+    "dimensions": [
+      "minecraft:overworld"
+    ]
+  }
+}
