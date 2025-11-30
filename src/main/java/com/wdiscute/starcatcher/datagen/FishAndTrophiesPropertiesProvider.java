@@ -1860,7 +1860,6 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     new TrophyProperties.RarityProgress(0, 8),
                     TrophyProperties.DEFAULT.chanceToCatch()),
 
-
             //                                         ,--.
             // ,---.   ,---.   ,---. ,--.--.  ,---.  ,-'  '-.  ,---.
             //(  .-'  | .-. : | .--' |  .--' | .-. : '-.  .-' (  .-'
@@ -1888,11 +1887,9 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
             // `---'    `--'   `--' `--'  `----' `--'    `----'
             //
 
-
             new TrophyProperties(overworldDeepslateFish(ModItems.CRYSTAL_HOOK), TrophyProperties.TrophyType.EXTRA, "", new TrophyProperties.RarityProgress(6, 15), TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, new TrophyProperties.RarityProgress(1, 0), 100),
 
             new TrophyProperties(overworldFish(ModItems.SHINY_HOOK), TrophyProperties.TrophyType.EXTRA, "", new TrophyProperties.RarityProgress(15, 0), TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, 100),
-
 
             new TrophyProperties(overworldDeepslateFish(BuiltInRegistries.ITEM.wrapAsHolder(Items.DIAMOND)), TrophyProperties.TrophyType.EXTRA, "", TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, new TrophyProperties.RarityProgress(1, 4), TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, 100),
 
@@ -1905,7 +1902,6 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
             new TrophyProperties(netherLavaFish(BuiltInRegistries.ITEM.wrapAsHolder(Items.NETHERITE_SCRAP)), TrophyProperties.TrophyType.EXTRA, "", TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, 1),
 
             new TrophyProperties(netherLavaFish(BuiltInRegistries.ITEM.wrapAsHolder(Items.HEART_OF_THE_SEA)), TrophyProperties.TrophyType.EXTRA, "", new TrophyProperties.RarityProgress(25, 0), TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, TrophyProperties.RarityProgress.DEFAULT, 1)
-
 
     );
 
@@ -2120,7 +2116,6 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
         return FishProperties.DEFAULT.withFish(fish)
                 .withWorldRestrictions(FishProperties.WorldRestrictions.OVERWORLD_BEACH);
     }
-
 
     public static FishProperties overworldMushroomFieldsFish(Holder<Item> fish)
     {
