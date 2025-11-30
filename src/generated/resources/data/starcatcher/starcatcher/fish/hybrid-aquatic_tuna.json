@@ -5,9 +5,11 @@
       "modid": "hybrid_aquatic"
     }
   ],
-  "daytime": "noon",
   "difficulty": {
     "decay": 2,
+    "extras": {
+      "has_moving_markers": true
+    },
     "hitReward": 15,
     "markers": {
       "has_first_thin_marker": true,
@@ -22,8 +24,8 @@
       "loot": "starcatcher:treasure"
     }
   },
-  "fish": "hybrid-aquatic:blue_spotted_stingray",
-  "rarity": "rare",
+  "fish": "hybrid-aquatic:tuna",
+  "rarity": "uncommon",
   "size_and_weight": {
     "average_size_cm": 90.0,
     "average_weight_grams": 4300.0,
@@ -32,12 +34,11 @@
     "golden_chance_percentage": 10,
     "golden_state_increase": 20
   },
-  "weather": "clear",
   "world_restrictions": {
     "above_y": 50,
     "below_y": 100,
     "biomes_tags": [
-      "starcatcher:is_warm_ocean"
+      "starcatcher:is_ocean"
     ],
     "dimensions": [
       "minecraft:overworld"

@@ -5,6 +5,7 @@
       "modid": "hybrid_aquatic"
     }
   ],
+  "daytime": "night",
   "difficulty": {
     "extras": {
       "has_vanishing_markers": true
