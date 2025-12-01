@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hybrid_aquatic"
+    }
+  ],
+  "bait_restrictions": {
+    "correct_bait_chance_added": 15,
+    "correct_baits": [
+      "starcatcher:cherry_bait"
+    ]
+  },
+  "difficulty": {
+    "extras": {
+      "has_vanishing_markers": true
+    }
+  },
+  "fish": "hybrid-aquatic:goldfish",
+  "rarity": "uncommon",
+  "size_and_weight": {
+    "average_size_cm": 90.0,
+    "average_weight_grams": 4300.0,
+    "deviation_size_cm": 10.0,
+    "deviation_weight_grams": 2500.0,
+    "golden_chance_percentage": 10,
+    "golden_state_increase": 20
+  },
+  "world_restrictions": {
+    "above_y": 50,
+    "biomes_tags": [
+      "starcatcher:is_cherry_grove"
+    ],
+    "dimensions": [
+      "minecraft:overworld"
+    ]
+  }
+}
