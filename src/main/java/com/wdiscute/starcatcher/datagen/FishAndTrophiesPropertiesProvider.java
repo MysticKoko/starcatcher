@@ -1610,12 +1610,12 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
             //region Literally The Coolest Mod Ever
 
             //
-            //,--.  ,--.           ,--.            ,--.    ,--.       ,---.                               ,--.   ,--.
-            //|  '--'  | ,--. ,--. |  |-.  ,--.--. `--'  ,-|  |      /  O  \   ,---.  ,--.,--.  ,--,--. ,-'  '-. `--'  ,---.
-            //|  .--.  |  \  '  /  | .-. ' |  .--' ,--. ' .-. |     |  .-.  | | .-. | |  ||  | ' ,-.  | '-.  .-' ,--. | .--'
-            //|  |  |  |   \   '   | `-' | |  |    |  | \ `-' |     |  | |  | ' '-' | '  ''  ' \ '-'  |   |  |   |  | \ `--.
-            //`--'  `--' .-'  /     `---'  `--'    `--'  `---'      `--' `--'  `-|  |  `----'   `--`--'   `--'   `--'  `---'
-            //           `---'                                                   `--'                                                                   |_|
+            // ,--.  ,--.           ,--.            ,--.    ,--.       ,---.                               ,--.   ,--.
+            // |  '--'  | ,--. ,--. |  |-.  ,--.--. `--'  ,-|  |      /  O  \   ,---.  ,--.,--.  ,--,--. ,-'  '-. `--'  ,---.
+            // |  .--.  |  \  '  /  | .-. ' |  .--' ,--. ' .-. |     |  .-.  | | .-. | |  ||  | ' ,-.  | '-.  .-' ,--. | .--'
+            // |  |  |  |   \   '   | `-' | |  |    |  | \ `-' |     |  | |  | ' '-' | '  ''  ' \ '-'  |   |  |   |  | \ `--.
+            // `--'  `--' .-'  /     `---'  `--'    `--'  `---'      `--' `--'  `-|  |  `----'   `--`--'   `--'   `--'  `---'
+            //            `---'                                                   `--'                                                                   |_|
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "clownfish"))
                     .withSizeAndWeight(FishProperties.sw(9, 2, 200, 50, 10, 20))
@@ -1626,7 +1626,7 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withMod("hybrid_aquatic"),
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "surgeonfish"))
-                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withSizeAndWeight(FishProperties.sw(25, 10, 450, 150, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.EASY_MOVING)
                     .withRarity(FishProperties.Rarity.COMMON)
                     .withDaytime(FishProperties.Daytime.DAY)
@@ -1634,7 +1634,7 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withMod("hybrid_aquatic"),
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "blowfish"))
-                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withSizeAndWeight(FishProperties.sw(18, 4, 5, 3, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.EASY_MOVING)
                     .withRarity(FishProperties.Rarity.UNCOMMON)
                     .withDaytime(FishProperties.Daytime.DAY)
@@ -1642,7 +1642,7 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withMod("hybrid_aquatic"),
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "boxfish"))
-                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withSizeAndWeight(FishProperties.sw(30, 20, 150, 50, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.EASY_MOVING)
                     .withRarity(FishProperties.Rarity.UNCOMMON)
                     .withDaytime(FishProperties.Daytime.DAY)
@@ -1650,7 +1650,7 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withMod("hybrid_aquatic"),
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "damselfish"))
-                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withSizeAndWeight(FishProperties.sw(10, 5, 20, 5, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.EASY_MOVING)
                     .withRarity(FishProperties.Rarity.COMMON)
                     .withDaytime(FishProperties.Daytime.DAY)
@@ -1665,7 +1665,7 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withMod("hybrid_aquatic"),
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "blue_spotted_stingray"))
-                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withSizeAndWeight(FishProperties.sw(50, 30, 4000, 1000, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.HARD)
                     .withRarity(FishProperties.Rarity.RARE)
                     .withDaytime(FishProperties.Daytime.NOON)
@@ -1673,7 +1673,7 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withMod("hybrid_aquatic"),
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "spotted_eagle_ray"))
-                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withSizeAndWeight(FishProperties.sw(400, 100, 20000, 3000, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.HARD)
                     .withRarity(FishProperties.Rarity.RARE)
                     .withDaytime(FishProperties.Daytime.NOON)
@@ -1697,7 +1697,7 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withMod("hybrid_aquatic"),
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "stonefish"))
-                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withSizeAndWeight(FishProperties.sw(35, 5, 1500, 500, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.MEDIUM)
                     .withRarity(FishProperties.Rarity.UNCOMMON)
                     .withDaytime(FishProperties.Daytime.NOON)
@@ -1705,7 +1705,7 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withMod("hybrid_aquatic"),
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "parrotfish"))
-                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withSizeAndWeight(FishProperties.sw(40, 10, 1600, 1400, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.MEDIUM)
                     .withRarity(FishProperties.Rarity.COMMON)
                     .withDaytime(FishProperties.Daytime.DAY)
@@ -1713,7 +1713,7 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withMod("hybrid_aquatic"),
 
             overworldWarmOceanFish(fromRL("hybrid-aquatic", "seahorse"))
-                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withSizeAndWeight(FishProperties.sw(15, 10, 20, 15, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.EASY_MOVING)
                     .withRarity(FishProperties.Rarity.UNCOMMON)
                     .withDaytime(FishProperties.Daytime.DAY)
@@ -1828,6 +1828,18 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withRarity(FishProperties.Rarity.COMMON)
                     .withMod("hybrid_aquatic"),
 
+            overworldOceanFish(fromRL("hybrid-aquatic", "sheepshead_wrasse"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.MEDIUM)
+                    .withRarity(FishProperties.Rarity.COMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldOceanFish(fromRL("hybrid-aquatic", "pearlfish"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.MEDIUM)
+                    .withRarity(FishProperties.Rarity.COMMON)
+                    .withMod("hybrid_aquatic"),
+
             overworldOceanFish(fromRL("hybrid-aquatic", "rockfish"))
                     .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
                     .withDifficulty(FishProperties.Difficulty.MEDIUM)
@@ -1848,6 +1860,72 @@ public class FishAndTrophiesPropertiesProvider extends DatapackBuiltinEntriesPro
                     .withRarity(FishProperties.Rarity.RARE)
                     .withDaytime(FishProperties.Daytime.DAY)
                     .withWeather(FishProperties.Weather.CLEAR)
+                    .withMod("hybrid_aquatic"),
+
+            overworldCherryGroveFish(fromRL("hybrid-aquatic", "goldfish"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.UNCOMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldCherryGroveFish(fromRL("hybrid-aquatic", "koi"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.UNCOMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldRiverFish(fromRL("hybrid-aquatic", "carp"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.COMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldJungleFish(fromRL("hybrid-aquatic", "golden_dorado"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.HARD_ONLY_THIN_MOVING)
+                    .withRarity(FishProperties.Rarity.RARE)
+                    .withMod("hybrid_aquatic"),
+
+            overworldJungleFish(fromRL("hybrid-aquatic", "oscar"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.UNCOMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldJungleFish(fromRL("hybrid-aquatic", "tetra"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.COMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldJungleFish(fromRL("hybrid-aquatic", "tiger_barb"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.COMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldJungleFish(fromRL("hybrid-aquatic", "betta"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.UNCOMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldJungleFish(fromRL("hybrid-aquatic", "danio"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.COMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldJungleFish(fromRL("hybrid-aquatic", "gourami"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.COMMON)
+                    .withMod("hybrid_aquatic"),
+
+            overworldJungleFish(fromRL("hybrid-aquatic", "discus"))
+                    .withSizeAndWeight(FishProperties.sw(90, 10, 4300, 2500, 10, 20))
+                    .withDifficulty(FishProperties.Difficulty.EASY_VANISHING)
+                    .withRarity(FishProperties.Rarity.COMMON)
                     .withMod("hybrid_aquatic")
 
             //endregion Literally The Coolest Mod Ever

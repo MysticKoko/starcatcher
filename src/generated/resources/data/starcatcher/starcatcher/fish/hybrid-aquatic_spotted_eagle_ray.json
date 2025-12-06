@@ -25,10 +25,10 @@
   "fish": "hybrid-aquatic:spotted_eagle_ray",
   "rarity": "rare",
   "size_and_weight": {
-    "average_size_cm": 90.0,
-    "average_weight_grams": 4300.0,
-    "deviation_size_cm": 10.0,
-    "deviation_weight_grams": 2500.0,
+    "average_size_cm": 400.0,
+    "average_weight_grams": 20000.0,
+    "deviation_size_cm": 100.0,
+    "deviation_weight_grams": 3000.0,
     "golden_chance_percentage": 10,
     "golden_state_increase": 20
   },
